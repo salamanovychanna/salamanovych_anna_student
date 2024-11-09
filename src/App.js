@@ -1,11 +1,12 @@
-
+import IELTSTestFormReport from "./assets/IELTS_Test_Form_Report_Salamanovych_Anna.jpg";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h2 style={{textAlign:'center'}}>
           Salamanovych Anna - personal web-site
-        </p>
+        </h2>
+        <img src={IELTSTestFormReport} alt="why" width='100%' />
       </header>
     </div>
   );
