@@ -1,0 +1,26 @@
+.nav{
+    width:5%;
+    position:fixed;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:wrap;
+    padding: 20px 0 0 0;
+}
+
+.nav ul li {
+    transform:rotate(270deg);
+}
+.nav ul li:hover {
+    text-decoration: underline;
+}
+
+
+.nav ul{
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
