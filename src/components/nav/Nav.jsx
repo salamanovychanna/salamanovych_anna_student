@@ -7,7 +7,7 @@ const Nav = () => {
         <nav className='nav'>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li>
-                    <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
+                    <Link to="/" style={{ backgroundColor:'none', textDecoration: 'none' }}>Home</Link>
                 </li>
                 <li style={{marginBottom: '20px'}}>
                     <Link to="/academic" style={{ textDecoration: 'none' }}>Academic</Link>

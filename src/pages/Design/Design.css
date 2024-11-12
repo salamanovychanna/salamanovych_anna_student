@@ -11,5 +11,5 @@
 .space {
     height:50px;
     visibility: hidden;
-    width: 5px;
+    min-width: 5px;
 }
