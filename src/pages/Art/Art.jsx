@@ -1,8 +1,14 @@
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Art = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <>
         <Header/>
@@ -23,7 +29,8 @@ const Art = () => {
                     </p>
                 <Link style={{position:'absolute', fontSize:'40px', fontFamily: "'MonteCarlo', 'sans'", fontWeight: '400', textDecoration:'underline', color: '#341813', top: '0', transform:'translateY(-100%)', right:'0'}} to="/academic">Academic</Link>
             </div>
-            <iframe src="https://drive.google.com/file/d/1vGBdD7Tej-VlDK6nVxC9pYitVm4N0VcX/preview" width="100%" height="600" allow="autoplay"></iframe>        </main>
+         <iframe src="https://drive.google.com/file/d/1vGBdD7Tej-VlDK6nVxC9pYitVm4N0VcX/preview" width="100%" height="600" allow="autoplay"></iframe>        
+         </main>
         <Footer></Footer>
         </>
     );

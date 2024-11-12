@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../components/header/Header';
 import MetaCertificate from '../../assets/Coursera_Meta_Certificate.jpg';
 import IBMCertificate from '../../assets/Coursera_BackEnd.jpg';
@@ -12,6 +12,11 @@ import { Link } from 'react-router-dom';
 
 
 const Programming = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <>
             <Header />

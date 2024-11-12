@@ -19,6 +19,7 @@ import FORF4 from './../../assets/FORF4.jpg'
 import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header'
+import { useEffect } from 'react';
 
 
 
@@ -28,6 +29,10 @@ import Header from '../../components/header/Header'
 
 
 const Design = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <>
         <Header/>
