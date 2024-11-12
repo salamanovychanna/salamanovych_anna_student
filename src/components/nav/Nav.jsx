@@ -12,20 +12,20 @@ const Nav = () => {
                 <li style={{marginBottom: '20px'}}>
                     <Link to="/academic" style={{ textDecoration: 'none' }}>Academic</Link>
                 </li>
-                <li>
+                <li style={{margin: '30px 0'}}>
                     <Link to="/programming" style={{ textDecoration: 'none' }}>Programming</Link>
                 </li>
                 <li>
                     <Link to="/leadership" style={{ textDecoration: 'none' }}>Leadership</Link>
                 </li>
                 <li>
+                    <Link to="/art" style={{ textDecoration: 'none' }}>Art</Link>
+                </li>
+                <li>
                     <Link to="/design" style={{ textDecoration: 'none' }}>Design</Link>
                 </li>
-                <li>
+                <li style={{marginBottom: '60px'}}>
                     <Link to="/leisure" style={{ textDecoration: 'none' }}>Leisure</Link>
-                </li>
-                <li>
-                    <Link to="/art" style={{ textDecoration: 'none' }}>Art</Link>
                 </li>
             </ul>
         </nav>
