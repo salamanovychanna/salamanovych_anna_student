@@ -20,12 +20,12 @@ const Leisure = () => {
         <p>I totally understand the significance of English regarding future career, education, and communication. Therefore, I have been learning it for years. Finally, I achieved 6.5 in IELTS test, which is B2+ a few weeks ago. I continuously learn on everyday basics reading documentation for programming, watching interesting videos on Youtube, and reading in English.</p>
         <img style={{width: '100%'}} src={IELTS} alt="IELTS Test Form Report Salamanovych Anna" />
         <h3>Reading</h3>
-        <p>I enjoy reading in everning after a tiring day. It relieves and fulfills me. To an addition, it is great for my vocabulary and cleverness.</p>
+        <p>I enjoy reading after a tiring day. It relieves and fulfills me. To an addition, it is great for my vocabulary and cleverness.</p>
         <img style={{width: '100%'}} src={Books} alt="IELTS Test Form Report Salamanovych Anna" />
         <h3>Table & Big Tennis</h3>
         <p>I have been playing big tennis in sport school for a couple of years and continued playing table tennis as a hobby with my brother and father.</p>
         <h3>Chess</h3>
-        <p>I went to a chess club with my brother in my early years. We still organize home tournaments and battles spending great time together and improving our strategic mindset.</p>
+        <p>I went to a chess club with my brother in my early years. We still organize home tournaments and battles, spending great time together and improving our strategic mindset.</p>
         <h3>Communication</h3>
         <p>I find going on a walk with friends relaxing. They always give me a suitable advice. <br /> Also, I enjoy spending time with my family. My brother often makes me smile. We frequently spend great evenings tasting excellent dinner made by my mom.</p>
         </main>

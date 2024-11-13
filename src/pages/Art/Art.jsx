@@ -19,7 +19,7 @@ const Art = () => {
         <p>I have been a student at the music school for six years. Below is an example of my performance, where I performed at academic concert at Chernivtsi Music School No. 1.</p>
         <iframe src="https://drive.google.com/file/d/1tnvAXwpGBlVR6QGwmOwcj7-Kf2zOqj3o/preview" width="100%" height="530" allow="autoplay"></iframe>
         <h3>Dance</h3>
-        <p>In Novomber 2022, I started my dancing journay with Tymur Karpinskyi. It was hip hop style of dance. When Tymur moved on to another city, I started explore different tutor. On of the was Maria in "Move on" dance studio. This is her choreography.</p>
+        <p>In Novomber 2022, I started my dancing journay with Tymur Karpinskyi. It was hip hop style of dance. When Tymur moved on to another city, I started explore different tutors. On of them was Maria in "Move on" dance studio. This is her choreography.</p>
         <iframe src="https://drive.google.com/file/d/1pzB3zh6ejJk62YysLw8UeOntV-FLwKBp/preview" width="100%" height="600" allow="autoplay"></iframe>        <h3>Performing arts</h3>
         <div style={{position:'relative'}} >
                 <p>

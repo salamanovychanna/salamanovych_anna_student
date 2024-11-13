@@ -27,7 +27,6 @@ const Academic = () => {
                     The moment, when I began performing, was  filled with the silence of the graveyard in the assembly hall. My character was shouting "Shut up! You do not understand it". It was the peak of a fight with a roomate. <br/>
                     The scene illustrated below.
                     </p>
-                <Link style={{position:'absolute', fontSize:'40px', fontFamily: "'MonteCarlo', 'sans'", fontWeight: '400', textDecoration:'underline', color: '#341813', top: '0', transform:'translateY(-100%)', right:'0'}} to="/art">Art</Link>
             </div>
 
             <div className='design-images'>
