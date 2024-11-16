@@ -9,6 +9,7 @@ import WhiskerWink from '../../assets/WhiskerWink.jpg';
 import Footer from '../../components/footer/Footer'
 import './Programming.css';
 import { Link } from 'react-router-dom';
+import NASACertificate from '../../assets/NASACertificate.jpg';
 
 
 const Programming = () => {
@@ -128,6 +129,7 @@ Additionally, here I used some complex development practices like cascading dele
                     </p>
                 <Link style={{position:'absolute', fontSize:'40px', fontFamily: "'MonteCarlo', 'sans'", fontWeight: '400', textDecoration:'underline', color: '#341813', top: '0', transform:'translateY(-100%)', right:'0'}} to="/design">Design</Link>
                 <iframe src="https://forfarmers2.web.app/" width="100%”" height="600px"/>
+                <img style={{width: '100%'}} src={NASACertificate} alt="Nasa Space App Challenge Certificate" />
                 <div className="space">
                     <p>one</p>
                 </div>
